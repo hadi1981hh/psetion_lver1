@@ -1,0 +1,28 @@
+body{
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    background: url('../img/nator.jpg') center/cover no-repeat;
+}
+
+div{
+    
+    height: 100vh;
+    color: black;
+    position: relative;
+    right: 0;
+}
+
+h4{
+    color: white;
+    position: absolute;
+    top:200px;
+    right: 200px;
+}
+
+h4:first-child{
+    font-size: 1.5em;
+}
+
+h4:last-child{
+    top: 240px;
+}
